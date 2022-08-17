@@ -9,6 +9,7 @@ import javax.persistence.Id;
 @Entity
 class MusicItem {
 
+// try jenkins again
     private @Id @GeneratedValue Long id;
     private String name;
     private String artist_group;
